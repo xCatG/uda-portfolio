@@ -24,5 +24,8 @@ public class MainActivityTest{
         onView(withId(R.id.app1)).check(matches(isDisplayed()));
     }
 
-
+    @Test
+    public void button2Shown() {
+        onView(withId(R.id.app2)).check(matches(isDisplayed()));
+    }
 }
