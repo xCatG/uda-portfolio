@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.AppCompat.Light.DarkActionBar" parent="Base.Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MainButton">
+        <item name="android:layout_width">@dimen/main_button_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/main_btn_margin</item>
+        <item name="android:background">@color/main_btn_color</item>
+    </style>
+
+    <style name="MainButton.SP" parent="MainButton">
+        <item name="android:background">@android:color/holo_red_dark</item>
+    </style>
+
+</resources>
